@@ -3,15 +3,17 @@
 ANRDetector - is a simple framework for detecting cases when application is not responsive.
 Using a timer it measures how much time was spend on a test operation. It notifies about changes within delegate pattern.
 
-Usage
+##Usage
 1. Drag-and-drop Framework/ANRDetector.framework to your project. Make sure it is present under ‘Link binary with libraries” section in Build Phases of your project.
 2. Import ANRDetector in your class 
-	
-	   import ANRDetector
+```swift
+import ANRDetector
+```
 
 3. Implement delegate methods (if needed)
 	
-       extension YourClass: ANRDetectorDelegate {
+```swift
+extension YourClass: ANRDetectorDelegate {
 
         func didDetectANR() {
             print("⛔️ ANR DETECTED")
@@ -21,7 +23,7 @@ Usage
             print("✅ Back to normal. ANR duration: \(anrDuration) sec.")
         }
 }
-
+```
 
 Problems/difficulties I’ve met:
 
