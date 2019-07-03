@@ -1,7 +1,7 @@
 # YESAnrDetector
 <p align="center">
     <img src="https://img.shields.io/badge/Swift-5.0-orange.svg" />
-    <img src="https://img.shields.io/badge/coverage-90%25-green.svg" alt="Test coverage"/>
+    <img src="https://img.shields.io/badge/test%20coverage-89.9%25-green.svg" alt="Test coverage"/>
     <img src="https://img.shields.io/badge/protspace-Twitter%3A%20%40protspace-green.svg" alt="Twitter: @protspace" />
 </p>
 
