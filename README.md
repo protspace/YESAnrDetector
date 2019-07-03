@@ -3,7 +3,7 @@
 ANRDetector - is a simple framework for detecting cases when application is not responsive.
 Using a timer it measures how much time was spend on a test operation. It notifies about changes within delegate pattern.
 
-##Usage
+## Usage
 1. Drag-and-drop Framework/ANRDetector.framework to your project. Make sure it is present under ‘Link binary with libraries” section in Build Phases of your project.
 2. Import ANRDetector in your class 
 ```swift
