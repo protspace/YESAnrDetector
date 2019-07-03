@@ -11,15 +11,15 @@ Usage
 
 3. Implement delegate methods (if needed)
 	
-   extension YourClass: ANRDetectorDelegate {
+       extension YourClass: ANRDetectorDelegate {
 
-    func didDetectANR() {
-        print("⛔️ ANR DETECTED")
-    }
+        func didDetectANR() {
+            print("⛔️ ANR DETECTED")
+        }
 
-    func didBackToNormal(anrDuration: TimeInterval) {
-        print("✅ Back to normal. ANR duration: \(anrDuration) sec.")
-    }
+        func didBackToNormal(anrDuration: TimeInterval) {
+            print("✅ Back to normal. ANR duration: \(anrDuration) sec.")
+        }
 }
 
 
