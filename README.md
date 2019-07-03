@@ -7,7 +7,7 @@ Usage
 1. Drag-and-drop Framework/ANRDetector.framework to your project. Make sure it is present under ‘Link binary with libraries” section in Build Phases of your project.
 2. Import ANRDetector in your class 
 	
-	import ANRDetector
+	   import ANRDetector
 
 3. Implement delegate methods (if needed)
 	
