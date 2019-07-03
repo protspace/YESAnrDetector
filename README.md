@@ -1,10 +1,7 @@
 # YESAnrDetector
 <p align="center">
     <img src="https://img.shields.io/badge/Swift-5.0-orange.svg" />
-    <a href="https://swift.org/package-manager">
-        <img src="https://img.shields.io/badge/spm-compatible-brightgreen.svg?style=flat" alt="Swift Package Manager" />
-        <img src="https://img.shields.io/badge/protspace-Twitter%3A%20%40protspace-green.svg" alt="Twitter: @protspace" />
-    </a>
+    <img src="https://img.shields.io/badge/protspace-Twitter%3A%20%40protspace-green.svg" alt="Twitter: @protspace" />
 </p>
 
 ANRDetector - is a simple framework for detecting cases when application is not responsive (Main thread is blocked).
